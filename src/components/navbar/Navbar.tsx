@@ -9,6 +9,7 @@ const navigation = [
     { name: 'Technology', href: '#', current: false },
     { name: 'Clients', href: '#', current: false },
     { name: 'About Us', href: '#', current: false },
+    {name:'SoftwareDeveloper',href:'#',current:true},
 ];
 
 const Navbar: React.FC = React.memo(() => {
