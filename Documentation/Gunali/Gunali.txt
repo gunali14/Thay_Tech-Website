@@ -1,0 +1,10 @@
+Date:19/08/2024
+Day:Monday
+
+- Add a service page component (SoftwareDeveloper.tsx)
+
+## Reference ##
+- https://www.future-processing.com/services/
+-https://rightinformation.com/
+-https://themewagon.github.io/consulto/
+-https://themewagon.com/themes/free-responsive-html5-bootstrap-5-ecommerce-website-template-productly/
