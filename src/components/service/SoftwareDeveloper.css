@@ -1,0 +1,15 @@
+.body {
+  color: #666666;
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+.img{
+  height: 100%;
+  width:100%;
+}
+h1 {
+  font-size: 30px;
+}

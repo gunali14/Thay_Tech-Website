@@ -1,26 +1,43 @@
 import React from 'react';
+import './SoftwareDeveloper.css';
 
 const SoftwareDeveloper: React.FC = () => {
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-7 col-xl-5">
-                    <div className="text-container">
-                        <h1 className="h1-large">Software Development</h1>
-                        <p className="p-large">
-                        Thay offers tailored training and certification for students, job seekers, professionals, and corporate teams. Learn from industry experts and benefit from skills assessments and upgrade programs to keep your skills up-to-date.
-                        </p>
-                      
-                    </div> {/* end of text-container */}
-                </div> {/* end of col */}
-                <div className="col-lg-5 col-xl-7">
-                    <div className="image-container">
-                        <img className="img-fluid" src="images/header.png" alt="alternative" />
-                    </div> {/* end of image-container */}
-                </div> {/* end of col */}
-            </div> {/* end of row */}
-        </div> 
+        <>
+            {/* Marketing Section */}
+            <div className='body d-flex'>
+      
+            <div className="flex flex-row p-5">
+              <div className="content p-10">
+               <h1 className='text-blue-600 text-2xl'>Software</h1>
+               <br></br>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. <br></br>
+               Obcaecati quidem nostrum ea! Veniam, accusamus? Tempore <br></br>libero recusandae id temporibus voluptas dolorem. Laudantium fugiat, cumque cum aliquid temporibus error ullam vel!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br></br> Tempora distinctio nihil provident numquam quis magnam repellendus quasi nostrum eveniet minima obcaecati architecto minus libero harum maiores ipsa, dolor necessitatibus vel.
+              </div>
+              <div className="img p-10">
+              <img src="public/Software-Logos/img-1.png" alt="Marketing" />
+              </div>
+            </div>
+            <div className="flex flex-row-reverse p-5">
+              <div className="content p-10">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora distinctio nihil provident numquam quis magnam repellendus quasi nostrum eveniet minima obcaecati architecto minus libero harum maiores ipsa, dolor necessitatibus vel.
+              </div>
+              <div className="img p-10">
+              <img src="public/Software-Logos/img-1.png" alt="Marketing" />
+              </div>
+            </div>
+            <div className="flex flex-row p-5">
+              <div className="content p-10">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora distinctio nihil provident numquam quis magnam repellendus quasi nostrum eveniet minima obcaecati architecto minus libero harum maiores ipsa, dolor necessitatibus vel.
+              </div>
+              <div className="img p-10">
+              <img src="public/Software-Logos/img-1.png" alt="Marketing" />
+              </div>
+            </div>
+            </div>
+        </>
     );
-}
+};
 
 export default SoftwareDeveloper;

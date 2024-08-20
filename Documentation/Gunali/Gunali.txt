@@ -1,3 +1,19 @@
+Date:20/08/2024
+Day:Tuesday
+
+Add  content to a softwareDevelopment page using CSS 
+
+##Reference website##
+https://themewagon.github.io/goind/
+https://themewagon.com/themes/free-responsive-fruits-vegetable-e-commerce-website-template-vegefoods/
+https://animate.style/
+https://www.tailwindtoolbox.com/templates/landing-page-demo.php
+https://tailwindcss.com/docs/font-size
+
+
+--------------------------------------------------------------------------------------------
+
+
 Date:19/08/2024
 Day:Monday
 
