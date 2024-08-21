@@ -1,15 +1,91 @@
-.body {
-  color: #666666;
-  font-size: 14px;
-  font-family: Poppins;
-  line-height: 1.80857;
-  font-weight: normal;
-  overflow-x: hidden;
+/* Fade-in animation */
+@keyframes fadeInLeft {
+  0% {
+      opacity: 0;
+      transform: translateY(20px); /* Adjust for slide effect */
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
-.img{
-  height: 100%;
-  width:100%;
+
+/* Initial state: hidden */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px); /* Adjust for slide effect */
+  transition: opacity 2s ease-out, transform 2s ease-out;
 }
-h1 {
-  font-size: 30px;
+
+/* When the element is in view */
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInLeft 3s ease-out; /* Apply the fadeInLeft animation */
+}
+
+/* SoftwareDeveloper.css */
+
+/* Flex container for each section */
+.flex {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Distribute space evenly between items */
+  margin: 20px 0; /* Space between sections */
+}
+
+/* For rows with text and image */
+.flex img {
+  max-width: 100%; /* Make sure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Content section styling */
+.content {
+  flex: 1; /* Allow content to grow */
+  margin-right: 20px; /* Space between content and image */
+}
+
+/* Ensure image sections do not exceed a max-width */
+.img {
+  flex: 1; /* Allow image to grow */
+}
+
+/* Add a specific width to the image if needed */
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* For sections with the image on the right */
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+  .flex {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: flex-start; /* Align items to the start */
+  }
+  .content {
+      margin-right: 0; /* Remove margin for stacked layout */
+      margin-bottom: 20px; /* Space below the content */
+  }
+  .img {
+      margin-bottom: 20px; /* Space below the image */
+  }
+ 
+}
+
+@media (max-width: 768px) {
+  .reverse-content{
+    flex-direction: row-reverse;
+    align-items: flex-end;
+  }
+  .reverse-content .content {
+    order: 1; /* Show content first */
+}
+
+.reverse-content .img {
+    order: 2; /* Show image after content */
+}
+
 }
