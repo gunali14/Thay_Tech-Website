@@ -1,4 +1,16 @@
+Date:22/08/2024
+Day:wednesday
+ "worked on the UI, aligning the SoftwareDeveloper webpage by modifying the CSS. 
+  added a shadow to the images, changed the font style, included additional content, 
+  and updated the background color."
+ 
+##Reference website##
+https://themewagon.github.io/productly/v1.0.0/
+https://tailwindcss.com/docs/font-style
+https://tailwindcss.com/
 
+
+--------------------------------------------------------------------------------------------
 Date:21/08/2024
 Day:wednesday
 

@@ -6,6 +6,8 @@ import { LiaGripfire } from 'react-icons/lia';
 const navigation = [
     { name: 'Home', href: '/*', current: true },
     { name: 'Services', href: '/SoftwareDeveloper', current: false},
+    { name: 'Service', href: '/ProductDeveloper', current: false},
+    
     { name: 'Industry', href: '#', current: false },
     { name: 'Technology', href: '#', current: false },
     { name: 'Clients', href: '#', current: false },
