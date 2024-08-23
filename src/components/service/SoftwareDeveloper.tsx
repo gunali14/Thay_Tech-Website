@@ -52,40 +52,21 @@ const SoftwareDeveloper: React.FC = () => {
     return (
         <>
             <div className='body '>
-                <div className="bg-[#F6F4EB] flex items-center p-5" style={{ height: "90vh" }}>
-                    <div className="flex-1">
-                        <h1 className="font-bold text-6xl mb-4 ml-20 animate-down-to-up">
-                            <b>Software Development</b>
-                        </h1>
-                        <p
-                            className="ml-20 mb-20 animate-down-to-up"
-                            style={{ animationDelay: '0.5s' }}
-                        >
-                            Let decide on what you want. We will deliver what you need.
-                        </p>
-                    </div>
-                    <div className="flex-1 text-right">
-                        <img
-                            src="public/Software-Logos/Netwoking.svg"
-                            alt="Head Software Development"
-                            className="max-w-full h-auto"
-                        />
-                    </div>
-                </div>
+                
                 {/* <h1 className='content text-5xl font-bold text-center mt-6'>We design tools to unveil
                 your superpowers</h1> */}
                 <div className="content-box flex fade-in-section">
                     <div className="content p-10">
                         <h1 className='text-gray-600 pb-3 text-2xl'><b>Transforming Ideas into Impactful Software Solutions</b></h1>
                         <p className='text-l text-justify font-weight: 500  whitespace-normal'>
-                        At Thay Technologies, we are dedicated to crafting custom software solutions that drive business success. Our approach is rooted in deep technical expertise and a commitment to innovation, ensuring that the software we develop not only meets current needs but also anticipates future challenges.
+                            At Thay Technologies, we are dedicated to crafting custom software solutions that drive business success. Our approach is rooted in deep technical expertise and a commitment to innovation, ensuring that the software we develop not only meets current needs but also anticipates future challenges.
                         </p>
                         <br />
                         <h2 className='text-gray-600 pb-3 text-xl'><b>The Essence of Software Development</b></h2>
                         <p className='text-l text-justify font-weight: 500  whitespace-normal'>
-                        Software development is a strategic process involving design, coding, testing, and deployment of applications tailored to solve specific business problems. At Thay Technologies, we blend creativity with rigorous engineering practices to deliver solutions that are robust, scalable, and aligned with your business objectives.
+                            Software development is a strategic process involving design, coding, testing, and deployment of applications tailored to solve specific business problems. At Thay Technologies, we blend creativity with rigorous engineering practices to deliver solutions that are robust, scalable, and aligned with your business objectives.
                         </p>
-                       
+
                     </div>
                     <div className="img p-10">
                         <img src="public/Software-Logos/img3.jpg" alt="Marketing" />

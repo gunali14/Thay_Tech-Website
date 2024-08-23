@@ -1,8 +1,16 @@
-/* Fade-in animation */
+/* General Reset for body */
+body, .body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  background-color: #EEEEEE;
+}
+
+/* Existing keyframes and animations remain unchanged */
 @keyframes fadeInLeft {
   0% {
       opacity: 0;
-      transform: translateY(20px); /* Adjust for slide effect */
+      transform: translateY(20px);
   }
   100% {
       opacity: 1;
@@ -20,17 +28,15 @@
     opacity: 1;
   }
 }
+
 .animate-down-to-up {
   animation: downToUp 2s ease-out forwards;
-}
-.body{
-  background-color: #EEEEEE;
 }
 
 /* Initial state: hidden */
 .fade-in-section {
   opacity: 0;
-  transform: translateY(20px); /* Adjust for slide effect */
+  transform: translateY(20px);
   transition: opacity 2s ease-out, transform 2s ease-out;
 }
 
@@ -38,77 +44,107 @@
 .fade-in-section.is-visible {
   opacity: 1;
   transform: translateY(0);
-  animation: fadeInLeft 3s ease-out; /* Apply the fadeInLeft animation */
+  animation: fadeInLeft 3s ease-out;
 }
-
-/* SoftwareDeveloper.css */
 
 /* Flex container for each section */
 .content-box {
-    height: 90vh; /* Full viewport height */
+    height: 90vh;
     display: flex;
-    align-items: center; /* Center content vertically */
-    justify-content: space-between; /* Distribute space between content and image */
-    margin: 0 auto; /* Center the content horizontally within the container */
-    padding: 0 5% 4%; /* Adjust padding to create minimal blank space */
-    box-sizing: border-box; /* Include padding and borders in the element's width and height */
-    width: 100%; /* Use the full width of the screen */
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 5% 4%;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 /* For rows with text and image */
 .content-box img {
   max-width: 100%;
-  height: auto; /* Ensure image scales properly */
-  border-radius: 15px; /* Add a soft shadow for a blended effect */
+  height: auto;
+  border-radius: 15px;
 }
 
 /* Content section styling */
 .content {
   font-family: Georgia;
-  flex: 1; /* Allow content to grow */
+  flex: 1;
 }
 
 /* Ensure image sections do not exceed a max-width */
 .img {
-  flex: 1; /* Allow image to grow */
+  flex: 1;
   margin-right: 20px;
 }
 
 /* Add a specific width to the image if needed */
 .img img {
-  max-width: 110%;
-  height: 40cap;
+  max-width: 100%; /* Adjusted to 100% */
+  height: auto;
 }
 
-/* For sections with the image on the right */
-
-/* Adjustments for responsiveness */
+/* Responsive Adjustments */
 @media (max-width: 1050px) {
   .content-box {
-      flex-direction: column; /* Stack items vertically on small screens */
-      align-items: flex-start; /* Align items to the start */
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
   }
   .content {
-      margin-right: 0; /* Remove margin for stacked layout */
-      margin-bottom: 20px; /* Space below the content */
+      margin-right: 0;
+      margin-bottom: 20px;
   }
   .img {
-      margin-bottom: 20px; /* Space below the image */
+      margin-right: 0; /* Remove margin on smaller screens */
+      margin-bottom: 20px;
   }
- 
+}
+
+/* Adjustments for reverse-content on mobile */
+.reverse-content {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 @media (max-width: 1050px) {
-  .reverse-content{
-    flex-direction: row-reverse;
-    align-items: flex-end;
+  .reverse-content {
+    flex-direction: column;
+    align-items: flex-start;
   }
   .reverse-content .content {
-    order: 1; /* Show content first */
+    order: 1;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .reverse-content .img {
+    order: 2;
+    margin-right: 0; /* Remove margin on smaller screens */
+    margin-bottom: 20px;
+  }
 }
 
-.reverse-content .img {
-    order: 2; /* Show image after content */
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .content-box, .reverse-content {
+    padding: 0 2%;
+  }
+  .content {
+    font-size: 1rem;
+  }
+  .img img {
+    max-width: 100%;
+  }
 }
 
+@media (max-width: 480px) {
+  .content-box, .reverse-content {
+    height: auto;
+  }
+  .content {
+    font-size: 0.9rem;
+  }
+  .img img {
+    max-width: 100%;
+  }
 }
