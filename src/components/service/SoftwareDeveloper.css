@@ -201,6 +201,23 @@ p.text-l {
 .animate-down-to-up {
   animation: downToUp 2s ease-out forwards;
 }
+  
+  @keyframes rightToLeft {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+/* Animation class for image */
+.animate-right-to-left {
+  animation: rightToLeft 2s ease-out forwards;
+}
 
 /* Full-screen header content */
 .header-content {

@@ -1,5 +1,20 @@
 Date:23/08/2024
 Day:Friday
+worked on the UI, aligning the Review  webpage by modifying the CSS.
+worked on the UI, aligning the InfraStructure OutSourcing webpage by modifying the CSS.
+create an automatic slideshow that transitions between slides one by one
+setup will automatically cycle through the paragraphs every 4 seconds, displaying them in a styled container centered on the screen.
+
+##Reference website##
+https://flowbite.com/docs/components/card/
+https://themewagon.github.io/essence/
+https://themewagon.github.io/caraft/
+
+--------------------------------------------------------------------------------------------
+
+
+Date:23/08/2024
+Day:Friday
   -worked on the UI, aligning the SoftwareDeveloper webpage by modifying the CSS. 
   -resolve the issue of text overlapping with images on mobile devices
   -resolve the issue of the blank space on the right side when viewed on mobile devices.

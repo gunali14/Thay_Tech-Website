@@ -62,11 +62,12 @@ const SoftwareDeveloper: React.FC = () => {
                         </p>
                     </div>
                     <div className="flex-1">
-                        <img
-                            src="/Software-Logos/Software.svg"
-                            alt="Head Software Development"
-                        />
-                    </div>
+    <img
+      src="/Software-Logos/Software.svg"
+      alt="Head Software Development"
+      className="animate-right-to-left"
+    />
+  </div>
                 </div>
                 <div className="content-box flex fade-in-section">
                     <div className="content p-10">

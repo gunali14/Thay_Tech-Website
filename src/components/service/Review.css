@@ -1,0 +1,75 @@
+/* Review.css */
+
+.client-section {
+    width: 100%;
+    padding-bottom: 130px;
+    position: relative;
+}
+
+.client-section-content {
+    width: 90%;
+    background-color: #fff;
+    margin: 75px auto 0;
+    box-shadow: 0px 1px 10px 1px #888888;
+    padding: 25px;
+    transition: transform 0.1s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.feature-title {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #373637;
+    font-weight: bold;
+}
+
+.feature-text {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #373637;
+    margin: 0;
+}
+
+.normal-text {
+    width: 100%;
+    font-size: 24px;
+    color: #373637;
+    font-weight: bold;
+}
+
+.ipsum-text {
+    width: 100%;
+    font-size: 16px;
+    color: #373637;
+    margin: 0;
+}
+
+.client-section::before {
+    content: '';
+    position: absolute;
+    width: 210px;
+    height: 410px;
+    background-color: #781eed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    margin-top: 140px;
+    margin-left: 120px;
+}
+
+.carousel-item {
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    opacity: 0;
+}
+
+.carousel-item.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
