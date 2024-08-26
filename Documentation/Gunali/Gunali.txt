@@ -1,4 +1,21 @@
-Date:23/08/2024
+Date:26/08/2024
+Day:Monday
+Worked on Service Home page
+setup will give your images a smooth fade-in effect when they load, combined with a color change when hovered over
+create an automatic slideshow that transitions between slides one by one
+The updated CSS and the revised Slideshow component
+Added border, border-radius, and box-shadow for a cleaner card appearance.
+Replace the backgroundColor styling with a card structure .
+Update the styles 
+
+##Reference website##
+https://themewagon.github.io/acuas/service.html
+https://themewagon.github.io/Investa/service.html
+https://fontawesome.com/v6/icons?o=r&s=solid
+--------------------------------------------------------------------------------------------
+
+
+Date:24/08/2024
 Day:Friday
 worked on the UI, aligning the Review  webpage by modifying the CSS.
 worked on the UI, aligning the InfraStructure OutSourcing webpage by modifying the CSS.

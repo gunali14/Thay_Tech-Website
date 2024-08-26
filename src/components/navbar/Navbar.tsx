@@ -5,10 +5,10 @@ import { LiaGripfire } from 'react-icons/lia';
 
 const navigation = [
     { name: 'Home', href: '/*', current: true },
-    { name: 'Services', href: '/SoftwareDeveloper', current: false},
+    { name: 'SlideShow', href: '/SlideShow', current: false},
     { name: 'Service', href: '/ProductDeveloper', current: false},
     { name: 'Infra', href: '/InfrastructureOutsourcing', current: false},
-    { name: 'Review', href: '/Review', current: false },
+    { name: 'HomeService', href: '/HomeService', current: false },
     { name: 'Industry', href: '#', current: false },
     { name: 'Technology', href: '#', current: false },
     { name: 'Clients', href: '#', current: false },

@@ -12,7 +12,7 @@
     margin: 75px auto 0;
     box-shadow: 0px 1px 10px 1px #888888;
     padding: 25px;
-    transition: transform 0.1s ease-in-out, opacity 0.2s ease-in-out;
+    /* transition: transform 0.1s ease-in-out, opacity 0.2s ease-in-out; */
 }
 
 .feature-title {
@@ -66,7 +66,7 @@
 
 .carousel-item.active {
     opacity: 1;
-    transform: scale(1);
+    /* transform: scale(1); */
 }
 
 .image-container img {

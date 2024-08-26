@@ -1,0 +1,49 @@
+.slideshow {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slideshowSlider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 900px;
+    height: auto;
+  }
+  
+  .slideshowDots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .slideshowDot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slideshowDot.active {
+    background-color: rgb(13, 45, 205);
+  }
+  

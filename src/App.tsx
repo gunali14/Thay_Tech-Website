@@ -3,11 +3,18 @@ import Navbar from './components/navbar/Navbar';
 import HomePage from './components/home/HomePage';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import SoftwareDeveloper from './components/service/SoftwareDeveloper';
+
 import ProductDeveloper from './components/service/ProductDeveloper';
 import Footer from './components/footer/Footer';
 import InfrastructureOutsourcing from './components/service/InfrastructureOutsourcing';
-import Review from './components/service/Review';
+
+import HomeService from './components/service/HomeService';
+
+import SlideShow from './components/service/SlideShow';
+
+
+
+
 
 
 
@@ -18,10 +25,11 @@ const App: React.FC = () => {
      <Navbar/>
     <Routes>
      <Route path='*' element={<HomePage />} />
-     <Route path='/SoftwareDeveloper' element={<SoftwareDeveloper />} />
+     <Route path='/SlideShow' element={<SlideShow/>} />
      <Route path='/ProductDeveloper' element={<ProductDeveloper />} />
      <Route path='/InfrastructureOutsourcing' element={<InfrastructureOutsourcing />} />
-     <Route path='/Review' element={<Review />} />
+     <Route path='/HomeService' element={<HomeService/>} />
+
      </Routes>
      <Footer/>
    </Router>
