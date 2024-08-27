@@ -1,3 +1,12 @@
+Date:27/08/2024
+Day:Tuesday
+Worked on Service Home page
+setup will place header on the left side and the slideshow cards on the right side.
+add a quote icon to the left side of the card, you can use an SVG or FontAwesome icon and position it accordingly using CSS. 
+Add a HeaderService
+separating the containers,independently control the layout and styling of the header and the slideshow, giving you more flexibility in design.
+
+--------------------------------------------------------------------------------------------
 Date:26/08/2024
 Day:Monday
 Worked on Service Home page

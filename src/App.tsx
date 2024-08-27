@@ -11,6 +11,7 @@ import InfrastructureOutsourcing from './components/service/InfrastructureOutsou
 import HomeService from './components/service/HomeService';
 
 import SlideShow from './components/service/SlideShow';
+import HeaderService from './components/service/HeaderService';
 
 
 
@@ -29,6 +30,7 @@ const App: React.FC = () => {
      <Route path='/ProductDeveloper' element={<ProductDeveloper />} />
      <Route path='/InfrastructureOutsourcing' element={<InfrastructureOutsourcing />} />
      <Route path='/HomeService' element={<HomeService/>} />
+     <Route path='/HeaderService' element={<HeaderService/>} />
 
      </Routes>
      <Footer/>

@@ -3,10 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDonate } from '@fortawesome/free-solid-svg-icons';
 
 import './HomeService.css';
+import HeaderService from './HeaderService';
 
 const HomeService: React.FC = () => {
   return (
+     
     <div className="container-fluid service py-5">
+    
       <div className="container py-5">
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '800px' }}>
           <h4 className="text-primary">Our Services</h4>
@@ -25,7 +28,9 @@ const HomeService: React.FC = () => {
                     Software training 
                   </a>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
+                  
+Enhance your team's skills with our tailored software training programs for all proficiency levels.
+
                   </p>
                   <a className="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                 </div>
@@ -41,10 +46,10 @@ const HomeService: React.FC = () => {
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
                     <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
-                    Consultancy & Advice
+                    Cloud support
                   </a>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
+                  Reliable cloud migration, management, and 24/7 support to optimize your cloud infrastructure.
                   </p>
                   <a className="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                 </div>
@@ -60,10 +65,10 @@ const HomeService: React.FC = () => {
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
                     <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
-                    Investments Planning
+                    IT consulting
                   </a>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
+                  Expert IT consulting to streamline your operations and drive innovation with strategic solutions.
                   </p>
                   <a className="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                 </div>
@@ -79,10 +84,10 @@ const HomeService: React.FC = () => {
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
                     <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
-                    Investments Planning
+                    Outsourcing 
                   </a>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
+                  Outsource your IT needs to us and focus on your core business while we handle the rest.
                   </p>
                   <a className="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                 </div>
@@ -98,10 +103,10 @@ const HomeService: React.FC = () => {
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
                     <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
-                    Private Client Investment
+                    Development
                   </a>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
+                  Custom software development that turns your ideas into scalable, user-friendly applications.
                   </p>
                   <a className="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                 </div>

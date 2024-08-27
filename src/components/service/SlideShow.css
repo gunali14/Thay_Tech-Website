@@ -1,49 +1,73 @@
+
+
 .slideshow {
-    max-width: 500px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .slideshowSlider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slide {
-    min-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .card {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 900px;
-    height: auto;
-  }
-  
-  .slideshowDots {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  .slideshowDot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: grey;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .slideshowDot.active {
-    background-color: rgb(13, 45, 205);
-  }
-  
+
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #c4daf4;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slideshow-header {
+  text-align: left; /* Align header to the start (left) */
+  margin-bottom: 90px;
+  margin-left: 0; /* Ensure header aligns to the left margin */
+
+}
+
+.slideshowSlider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: flex-center; 
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center; /* Align text in the card to the start (left) */
+  width:90%;
+}
+
+
+.slideshowDots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.slideshowDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slideshowDot.active {
+  background-color: rgb(13, 45, 205);
+}
+
+.content-bg {
+overflow: hidden;
+}
+
+.slidecontent {
+  display: flex;
+  gap: 15rem !important;
+}
+.quote-icon {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px; /* Adjust spacing as needed */
+}

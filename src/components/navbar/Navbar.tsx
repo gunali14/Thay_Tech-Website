@@ -9,7 +9,7 @@ const navigation = [
     { name: 'Service', href: '/ProductDeveloper', current: false},
     { name: 'Infra', href: '/InfrastructureOutsourcing', current: false},
     { name: 'HomeService', href: '/HomeService', current: false },
-    { name: 'Industry', href: '#', current: false },
+    { name: 'HeaderService', href: '/HeaderService', current: false },
     { name: 'Technology', href: '#', current: false },
     { name: 'Clients', href: '#', current: false },
     { name: 'About Us', href: '#', current: false },
