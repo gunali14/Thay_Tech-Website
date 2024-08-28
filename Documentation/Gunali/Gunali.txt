@@ -1,3 +1,12 @@
+
+Date:28/08/2024
+Day:Tuesday
+Worked on Service Home page
+add a software training page using css
+add a Cloudsupport page using css
+
+--------------------------------------------------------------------------------------------
+
 Date:27/08/2024
 Day:Tuesday
 Worked on Service Home page
@@ -7,6 +16,8 @@ Add a HeaderService
 separating the containers,independently control the layout and styling of the header and the slideshow, giving you more flexibility in design.
 
 --------------------------------------------------------------------------------------------
+
+
 Date:26/08/2024
 Day:Monday
 Worked on Service Home page

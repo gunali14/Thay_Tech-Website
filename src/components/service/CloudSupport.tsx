@@ -4,10 +4,10 @@ import { faDonate } from '@fortawesome/free-solid-svg-icons';
 import './HomeService.css';
 import HeaderService from './HeaderService';
 
-const HomeService: React.FC = () => {
+const CloudSupport: React.FC = () => {
   return (
     <div>
-      <HeaderService />
+ 
       {/* Our Services Section */}
       <div className="container py-5">
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '800px' }}>
@@ -43,14 +43,14 @@ const HomeService: React.FC = () => {
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
-                  <a href="/CloudSupport" className="h4 mb-4 d-inline-flex text-start">
+                  <a href="" className="h4 mb-4 d-inline-flex text-start">
                     <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
                     Cloud support
                   </a>
                   <p className="mb-4">
                     Reliable cloud migration, management, and 24/7 support to optimize your cloud infrastructure.
                   </p>
-                  <a className="btn btn-light rounded-pill py-2 px-4" href="/CloudSupport">Read More</a>
+                  <a className="btn btn-light rounded-pill py-2 px-4" href="/SoftwareTraining">Read More</a>
                 </div>
               </div>
             </div>
@@ -107,4 +107,4 @@ const HomeService: React.FC = () => {
   );
 };
 
-export default HomeService;
+export default CloudSupport;

@@ -12,6 +12,11 @@ import HomeService from './components/service/HomeService';
 
 import SlideShow from './components/service/SlideShow';
 import HeaderService from './components/service/HeaderService';
+import SoftwareDeveloper from './components/service/SoftwareDeveloper';
+import Software from './components/service/Software';
+import SoftwareTraining from './components/service/SoftwareTraining';
+import CloudSupport from './components/service/CloudSupport';
+
 
 
 
@@ -27,10 +32,13 @@ const App: React.FC = () => {
     <Routes>
      <Route path='*' element={<HomePage />} />
      <Route path='/SlideShow' element={<SlideShow/>} />
-     <Route path='/ProductDeveloper' element={<ProductDeveloper />} />
+     <Route path='/SoftwareDeveloper' element={<SoftwareDeveloper/>} />
+     <Route path='/Software' element={<Software/>} />
      <Route path='/InfrastructureOutsourcing' element={<InfrastructureOutsourcing />} />
      <Route path='/HomeService' element={<HomeService/>} />
      <Route path='/HeaderService' element={<HeaderService/>} />
+     <Route path='/SoftwareTraining' element={<SoftwareTraining/>} />
+     <Route path='/CloudSupport' element={<CloudSupport/>} />
 
      </Routes>
      <Footer/>

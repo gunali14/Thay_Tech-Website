@@ -1,18 +1,18 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDonate } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faDonate } from '@fortawesome/free-solid-svg-icons';
 import './HomeService.css';
 import HeaderService from './HeaderService';
 
-const HomeService: React.FC = () => {
+const SoftwareTraining: React.FC = () => {
   return (
     <div>
-      <HeaderService />
+   
       {/* Our Services Section */}
       <div className="container py-5">
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '800px' }}>
-          <h4 className="text-primary">Our Services</h4>
-          <h1 className="display-4">Offering the Best Consulting & Investa Services</h1>
+          <h4 className="text-primary">Software Training</h4>
+          <p className="display-6">Effective software training is key to empowering your team with the skills needed to drive productivity and achieve business success.</p>
         </div>
         <div className="row g-4 justify-content-center text-center">
           {/* Service Items */}
@@ -23,14 +23,14 @@ const HomeService: React.FC = () => {
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
-                  <a href="/SoftwareTraining" className="h4 mb-4 d-inline-flex text-start">
-                    <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
-                    Software training
+                  <a href="#" className="h4 mb-4 d-inline-flex text-start">
+                    <FontAwesomeIcon icon={faCode} size="1x" className="me-2" />
+                    Corporate Training
                   </a>
                   <p className="mb-4">
-                    Enhance your team's skills with our tailored software training programs for all proficiency levels.
+                  Aligning Skills to Drive Organizational Success
                   </p>
-                  <a className="btn btn-light rounded-pill py-2 px-4" href="/SoftwareTraining">Read More</a>
+                  <a className="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                 </div>
               </div>
             </div>
@@ -43,14 +43,14 @@ const HomeService: React.FC = () => {
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
-                  <a href="/CloudSupport" className="h4 mb-4 d-inline-flex text-start">
+                  <a href="#" className="h4 mb-4 d-inline-flex text-start">
                     <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
-                    Cloud support
+                    On-the-Job Training
                   </a>
                   <p className="mb-4">
-                    Reliable cloud migration, management, and 24/7 support to optimize your cloud infrastructure.
+                  Immediate Skill Application and Enhanced Productivity
                   </p>
-                  <a className="btn btn-light rounded-pill py-2 px-4" href="/CloudSupport">Read More</a>
+                  <a className="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ const HomeService: React.FC = () => {
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
                     <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
-                    IT consulting
+                    Project-Based Training
                   </a>
                   <p className="mb-4">
                     Expert IT consulting to streamline your operations and drive innovation with strategic solutions.
@@ -85,7 +85,7 @@ const HomeService: React.FC = () => {
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
                     <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
-                    Outsourcing
+                    Online and Offline Training
                   </a>
                   <p className="mb-4">
                     Outsource your IT needs to us and focus on your core business while we handle the rest.
@@ -107,4 +107,4 @@ const HomeService: React.FC = () => {
   );
 };
 
-export default HomeService;
+export default SoftwareTraining;

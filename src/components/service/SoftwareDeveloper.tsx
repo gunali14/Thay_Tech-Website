@@ -166,7 +166,7 @@ const SoftwareDeveloper: React.FC = () => {
                             What sets Thay Technologies apart is our unwavering commitment to delivering high-quality, innovative software solutions that meet your unique needs. Our blend of technological expertise, sustainability focus, and client-centric approach ensures that every project we undertake delivers exceptional results. Partner with us to experience the transformative power of expert software development.
                         </p>
                     </div>
-                </div>
+            </div>
                 <div>
                     <video
                         className="videoPlayer"
