@@ -4,15 +4,17 @@ import { faDonate } from '@fortawesome/free-solid-svg-icons';
 import './HomeService.css';
 import HeaderService from './HeaderService';
 
-const ITConsulting: React.FC = () => {
+const OutSourcing: React.FC = () => {
   return (
     <div>
- 
+    <HeaderService/>
       {/* Our Services Section */}
       <div className="container py-5">
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '800px' }}>
-          <h4 className="text-primary">Our Services</h4>
-          <h1 className="display-4">Offering the Best Consulting & Investa Services</h1>
+        <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: '600px' }} >
+                <h5 className="fw-bold text-primary text-uppercase">Our Services</h5>
+                <h1 className="mb-0">Custom IT Solutions for Your Successful Business</h1>
+            </div>
         </div>
         <div className="row g-4 justify-content-center text-center">
           {/* Service Items */}
@@ -107,4 +109,4 @@ const ITConsulting: React.FC = () => {
   );
 };
 
-export default ITConsulting;
+export default OutSourcing;

@@ -1,6 +1,14 @@
 
+Date:29/08/2024
+Day:Thursday
+Worked on Service Home page
+should apply the fade-in-up animation to the elements as they appear on the page.
+Add a Sveltesingles page
+Adjust the animation durations, timing, and other properties 
+
+--------------------------------------------------------------------------------------------
 Date:28/08/2024
-Day:Tuesday
+Day:wednesday
 Worked on Service Home page
 add a software training page using css
 add a Cloudsupport page using css

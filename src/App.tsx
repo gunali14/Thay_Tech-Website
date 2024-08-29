@@ -16,6 +16,9 @@ import SoftwareDeveloper from './components/service/SoftwareDeveloper';
 import Software from './components/service/Software';
 import SoftwareTraining from './components/service/SoftwareTraining';
 import CloudSupport from './components/service/CloudSupport';
+import ITConsulting from './components/service/CloudSupport';
+import OutSourcing from './components/service/OutSourcing';
+import SvelteSignals from './components/service/SvelteSignals';
 
 
 
@@ -39,6 +42,10 @@ const App: React.FC = () => {
      <Route path='/HeaderService' element={<HeaderService/>} />
      <Route path='/SoftwareTraining' element={<SoftwareTraining/>} />
      <Route path='/CloudSupport' element={<CloudSupport/>} />
+     <Route path='/ITConsulting' element={<ITConsulting/>} />
+     <Route path='/OutSourcing' element={<OutSourcing/>} />
+     <Route path='/SvelteSignals' element={<SvelteSignals/>} />
+     
 
      </Routes>
      <Footer/>

@@ -7,13 +7,17 @@ import HeaderService from './HeaderService';
 const SoftwareTraining: React.FC = () => {
   return (
     <div>
+      <HeaderService/>
    
       {/* Our Services Section */}
       <div className="container py-5">
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '800px' }}>
+        <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: '500px' }} >
           <h4 className="text-primary">Software Training</h4>
+     </div>
           <p className="display-6">Effective software training is key to empowering your team with the skills needed to drive productivity and achieve business success.</p>
         </div>
+   
         <div className="row g-4 justify-content-center text-center">
           {/* Service Items */}
           <div className="col-md-7 col-lg-8 col-xl-5 wow fadeInUp" data-wow-delay="0.1s">

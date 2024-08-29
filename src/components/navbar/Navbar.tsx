@@ -14,6 +14,7 @@ const navigation = [
     { name: 'Technology', href: '/', current: false },
     { name: 'Clients', href: '/', current: false },
     { name: 'About Us', href: '/', current: false },
+    { name: 'SvelteSignals', href: '/SvelteSignals', current: false },
    
 ];
 
