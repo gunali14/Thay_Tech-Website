@@ -16,9 +16,13 @@ import SoftwareDeveloper from './components/service/SoftwareDeveloper';
 import Software from './components/service/Software';
 import SoftwareTraining from './components/service/SoftwareTraining';
 import CloudSupport from './components/service/CloudSupport';
-import ITConsulting from './components/service/CloudSupport';
+
 import OutSourcing from './components/service/OutSourcing';
 import SvelteSignals from './components/service/SvelteSignals';
+import Development from './components/service/Development';
+import Review from './components/service/Review';
+import Contact from './components/contact/Contact ';
+import ITConsulting from './components/service/ITConsulting';
 
 
 
@@ -34,8 +38,8 @@ const App: React.FC = () => {
      <Navbar/>
     <Routes>
      <Route path='*' element={<HomePage />} />
-     <Route path='/SlideShow' element={<SlideShow/>} />
-     <Route path='/SoftwareDeveloper' element={<SoftwareDeveloper/>} />
+     <Route path='/Contact' element={<Contact/>} />
+
      <Route path='/Software' element={<Software/>} />
      <Route path='/InfrastructureOutsourcing' element={<InfrastructureOutsourcing />} />
      <Route path='/HomeService' element={<HomeService/>} />
@@ -44,9 +48,9 @@ const App: React.FC = () => {
      <Route path='/CloudSupport' element={<CloudSupport/>} />
      <Route path='/ITConsulting' element={<ITConsulting/>} />
      <Route path='/OutSourcing' element={<OutSourcing/>} />
-     <Route path='/SvelteSignals' element={<SvelteSignals/>} />
-     
 
+     <Route path='/Development' element={<Development/>} />
+     <Route path='/SoftwareDeveloper' element={<SoftwareDeveloper/>} />
      </Routes>
      <Footer/>
    </Router>

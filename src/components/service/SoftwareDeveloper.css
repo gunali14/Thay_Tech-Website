@@ -3,7 +3,6 @@ body, .body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal overflow */
-  background-color: #EEEEEE;
 }
 
 /* Existing keyframes and animations remain unchanged */

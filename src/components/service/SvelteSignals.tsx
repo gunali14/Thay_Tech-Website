@@ -7,11 +7,10 @@ const SvelteSignals: React.FC = () => {
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
             <h1 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Svelte signals are finally here
+             Development
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              This year, our new svelte signals will shelter you from the harsh
-              elements of a world that doesn't care if you develop or die.
+            Streamlined and innovative development services to propel your IT projects forward.
             </p>
           </div>
           <div>
@@ -33,7 +32,7 @@ const SvelteSignals: React.FC = () => {
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/public/Software-Logos/img-3.jpG"
+                          src="/public/Software-Logos/img-3.jpg"
                           alt="Image 2"
                           className="h-full w-full object-cover object-center"
                         />
@@ -42,7 +41,7 @@ const SvelteSignals: React.FC = () => {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/public/Software-Logos/img-3.jp"
+                          src="/public/Software-Logos/img-3.jpg"
                           alt="Image 3"
                           className="h-full w-full object-cover object-center"
                         />
@@ -83,10 +82,10 @@ const SvelteSignals: React.FC = () => {
               </div>
 
               <a
-                href="#"
+                href=""
                 className="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700"
               >
-                Svelte Signals
+               Read More
               </a>
             </div>
           </div>

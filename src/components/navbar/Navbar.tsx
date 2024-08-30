@@ -9,12 +9,13 @@ const navigation = [
     { name: 'SoftwareDeveloper', href: '/SoftwareDeveloper', current: false},
     { name: 'Software', href: '/Software', current: false},
     { name: 'Infra', href: '/InfrastructureOutsourcing', current: false},
+
     { name: 'HomeService', href: '/HomeService', current: false },
-    { name: 'HeaderService', href: '/HeaderService', current: false },
+    
     { name: 'Technology', href: '/', current: false },
-    { name: 'Clients', href: '/', current: false },
+    { name: 'Contact', href: '/Contact', current: false },
     { name: 'About Us', href: '/', current: false },
-    { name: 'SvelteSignals', href: '/SvelteSignals', current: false },
+    { name: 'Development', href: '/Development', current: false },
    
 ];
 

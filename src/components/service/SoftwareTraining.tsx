@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faDonate } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faDonate, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import './HomeService.css';
 import HeaderService from './HeaderService';
 
@@ -28,7 +28,7 @@ const SoftwareTraining: React.FC = () => {
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                    <FontAwesomeIcon icon={faCode} size="1x" className="me-2" />
+                    <FontAwesomeIcon icon={ faLaptopCode} size="1x" className="me-2" />
                     Corporate Training
                   </a>
                   <p className="mb-4">
@@ -48,7 +48,7 @@ const SoftwareTraining: React.FC = () => {
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                    <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
+                    <FontAwesomeIcon icon={ faLaptopCode} size="1x" className="me-2" />
                     On-the-Job Training
                   </a>
                   <p className="mb-4">
@@ -68,7 +68,7 @@ const SoftwareTraining: React.FC = () => {
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                    <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
+                    <FontAwesomeIcon icon={ faLaptopCode} size="2x" className="me-2" />
                     Project-Based Training
                   </a>
                   <p className="mb-4">
@@ -88,7 +88,7 @@ const SoftwareTraining: React.FC = () => {
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
                   <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                    <FontAwesomeIcon icon={faDonate} size="2x" className="me-2" />
+                    <FontAwesomeIcon icon={ faLaptopCode} size="2x" className="me-2" />
                     Online and Offline Training
                   </a>
                   <p className="mb-4">
@@ -100,9 +100,7 @@ const SoftwareTraining: React.FC = () => {
             </div>
           </div>
 
-          <div className="col-12">
-            <a className="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#">Services More</a>
-          </div>
+         
         </div>
       </div>
 
